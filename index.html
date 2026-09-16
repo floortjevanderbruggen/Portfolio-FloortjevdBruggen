@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floortje van der Bruggen — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Portfolio van Floortje van der Bruggen — Creatieve en perfectionistische ontwerper.">
+</head>
+<body>
+
+  <!-- 1. VASTE / SLIMME HEADER & NAVIGATIE -->
+  <header class="site-header theme-dark" id="siteHeader">
+    <a href="#hero" class="header-logo" aria-label="Home Floortje van der Bruggen">
+      <img src="images/Logopink.png" alt="Floortje van der Bruggen Logo Roze" class="logo-pink">
+      <img src="images/Logoblue.png" alt="Floortje van der Bruggen Logo Blauw" class="logo-blue">
+    </a>
+
+    <nav class="nav-icons" aria-label="Hoofdnavigatie">
+      <a href="#about" class="nav-icon-link" title="Over Floortje">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="7" r="4.5"></circle>
+          <path d="M4 20c0-4 4-6.5 8-6.5s8 2.5 8 6.5"></path>
+        </svg>
+      </a>
+
+      <a href="#projects" class="nav-icon-link" title="Projecten">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 7v13h18V7H11l-2-3H3z"></path>
+          <path d="M3 10h18"></path>
+        </svg>
+      </a>
+
+      <a href="#footer" class="nav-icon-link" title="Contact & E-mail">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <!-- 2. HERO SECTIE -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Floortje van<br>der Bruggen</h1>
+        <p class="hero-tagline">Een ontwerper die houdt van grafisch bezig zijn, details, nieuwsgierig is en betrokken is bij het ontwerp.</p>
+      </div>
+
+      <div class="hero-photos-container">
+        <div class="photo-card photo-card-1" title="Floortje 1">
+          <img src="images/Floortje 1.png" alt="Portret van Floortje van der Bruggen 1">
+        </div>
+
+        <div class="photo-card photo-card-2" title="Floortje 2">
+          <img src="images/Floortje2.png" alt="Portret van Floortje van der Bruggen 2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN WRAPPER MET VERTICALE TIJDLIJN -->
+  <main class="main-wrapper">
+    <div class="timeline-track" aria-hidden="true"></div>
+
+    <!-- 3. SECTIE 2: OVER MIJ -->
+    <section class="content-section about-section" id="about">
+      <div class="section-dot" aria-hidden="true"></div>
+
+      <div class="section-container">
+        <div class="about-grid">
+          <div class="about-image-col">
+            <div class="photo-card about-photo-card" title="Floortje 3">
+              <img src="images/Floortje 3.jpeg" alt="Floortje van der Bruggen buiten">
+            </div>
+          </div>
+
+          <div class="about-text-col">
+            <h2 class="about-name">Floortje van der Bruggen</h2>
+            <p class="about-bio">
+              Hoi! Ik ben Floortje van der Bruggen en ik woon in Tilburg. Ik ben een creatieve en perfectionistische ontwerper die graag werkt vanuit ideeën en standpunten waar ik zelf achter sta. Ik vind het belangrijk dat een ontwerp niet alleen goed werkt, maar ook netjes is uitgewerkt. Ik werk graag zorgvuldig, maar vind het ook belangrijk om plezier en humor te hebben. De laatste tijd hebben fotografie en film mijn interesse en ik zou hier graag in willen groeien!
+            </p>
+
+            <div class="about-quote-box">
+              <p class="about-quote">"Ik blijf kijken tot het werkt."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 4. SECTIE 3: PROJECTEN (MOOIE GROTE PUZZELSTUKKEN) -->
+    <section class="content-section projects-section" id="projects">
+      <div class="section-dot" aria-hidden="true"></div>
+
+      <div class="section-container">
+        <h2 class="section-header-title">Projecten</h2>
+
+        <div class="puzzle-interactive-container">
+          <div class="puzzle-wrapper">
+            <svg class="puzzle-svg" viewBox="0 0 960 460" aria-label="Interactieve projecten puzzel">
+              <defs>
+                <filter id="pieceShadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#3a4255" flood-opacity="0.2" />
+                </filter>
+
+                <!-- VORM A (Groter & Organisch) -->
+                <clipPath id="clip-shape-A">
+                  <path d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                </clipPath>
+
+                <!-- VORM B (Groter & Organisch) -->
+                <clipPath id="clip-shape-B">
+                  <path d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                </clipPath>
+
+                <!-- VORM C (Groter & Organisch) -->
+                <clipPath id="clip-shape-C">
+                  <path d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                </clipPath>
+
+                <!-- VORM D (Groter & Organisch) -->
+                <clipPath id="clip-shape-D">
+                  <path d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                </clipPath>
+              </defs>
+
+              <!-- STUK 1: Project 1 (Poster p1) -->
+              <g class="puzzle-group is-active" data-project="project-1" id="puzzleGroup1" style="cursor: pointer;" transform="translate(30, 30)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                <image href="images/Poster p1.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-A)" />
+                <path class="puzzle-piece" data-project="project-1" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 2: Project 2 (Foto p2 / Whiplash) -->
+              <g class="puzzle-group" data-project="project-2" id="puzzleGroup2" style="cursor: pointer;" transform="translate(265, 30)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                <image href="images/Foto p2.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-B)" />
+                <path class="puzzle-piece" data-project="project-2" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 3: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-3" transform="translate(500, 30)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-C)" />
+                <path class="puzzle-piece" data-project="coming-soon-3" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 4: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-4" transform="translate(735, 30)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-D)" />
+                <path class="puzzle-piece" data-project="coming-soon-4" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 5: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-5" transform="translate(30, 235)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-D)" />
+                <path class="puzzle-piece" data-project="coming-soon-5" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 6: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-6" transform="translate(265, 235)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-C)" />
+                <path class="puzzle-piece" data-project="coming-soon-6" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 7: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-7" transform="translate(500, 235)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-B)" />
+                <path class="puzzle-piece" data-project="coming-soon-7" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,-16 85,-16 85,0 L 145,0 L 145,50 C 128,50 128,75 145,75 L 145,125 L 85,125 C 85,141 60,141 60,125 L 0,125 L 0,75 C -17,75 -17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+
+              <!-- STUK 8: Coming Soon -->
+              <g class="puzzle-group is-coming-soon" data-project="coming-soon-8" transform="translate(735, 235)">
+                <path fill="#feeadb" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" />
+                <image href="images/Coming soon.png" x="-15" y="-10" width="175" height="145" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-shape-A)" />
+                <path class="puzzle-piece" data-project="coming-soon-8" fill="none" stroke="#3a4255" stroke-width="2.5" d="M 0,0 L 60,0 C 60,16 85,16 85,0 L 145,0 L 145,50 C 162,50 162,75 145,75 L 145,125 L 85,125 C 85,109 60,109 60,125 L 0,125 L 0,75 C 17,75 17,50 0,50 Z" filter="url(#pieceShadow)" />
+              </g>
+            </svg>
+
+            <div class="puzzle-tooltip" id="puzzleTooltip">
+              Klik op een puzzelstukje om het project te bekijken
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SECTIE 4: PROJECTDETAIL -->
+    <section class="content-section project-detail-section" id="project-detail">
+      <div class="section-dot" aria-hidden="true"></div>
+
+      <div class="section-container">
+        <div class="project-meta-header">
+          <h2 class="project-title" id="projectTitle">Zie het gebaar, stop het gevaar</h2>
+          <p class="project-subtitle" id="projectSubtitle">Ontwerpopdracht Graphic Matters, P1 Lj1</p>
+        </div>
+
+        <div class="project-detail-grid">
+          <!-- Linkerkolom: grote media + thumbnails -->
+          <div class="project-gallery">
+           <!-- NIEUWE CODE in index.html -->
+          <div class="main-image-container">
+           <img src="images/Poster p1.png" alt="Geselecteerd projectbeeld" class="main-project-image" id="mainProjectImage">
+           <video id="mainProjectVideo" class="main-project-video" controls style="display: none;">
+          <source src="" type="video/mp4">
+             Je browser ondersteunt deze video niet.
+             </video>
+              </div>
+
+            <div class="thumbnail-row" id="thumbnailRow"></div>
+          </div>
+
+          <!-- Rechterkolom: Tekst, Tags & Downloadknop -->
+          <div class="project-info">
+            <h3 class="project-info-heading" id="projectHeading">Opdracht en eindwerk</h3>
+            
+            <p class="project-info-description" id="projectDesc">
+              Voor Graphic Matters ontwierp ik deze poster rondom het thema "Stop!". Het uitgangspunt van mijn concept is het tegengaan van geweld tegen vrouwen en de noodzaak om in actie te komen wanneer dit plaatsvindt. Het centrale beeld toont een vrouwelijk lichaam dat wordt vastgegrepen, terwijl zij met haar handen het internationale SOS-handgebaar maakt om hulp te vragen. De krachtige typografie "Zie gebaar, stop gevaar" moet de toeschouwer aansturen om niet weg te kijken, maar in te grijpen.
+            </p>
+
+            <div class="project-tags" id="projectTags"></div>
+
+            <div style="margin-top: 1.5rem;">
+              <a href="images/Poster p1.pdf" id="projectDownloadBtn" target="_blank" class="btn btn-navy" download>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span id="downloadBtnText">Bekijk poster (PDF)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <span class="footer-subtitle">Bij vragen of interesse, mail naar</span>
+        <a href="mailto:floortje160507@gmail.com" class="footer-email">
+          Floortje160507@gmail.com
+        </a>
+      </div>
+
+      <div class="footer-social-group">
+        <a href="https://www.instagram.com/floortjevdbruggen/" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Instagram profiel Floortje">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span class="social-tooltip">Instagram</span>
+        </a>
+
+        <a href="#cv-modal" class="social-circle-btn" id="cvBtn" aria-label="CV bekijken">
+          <svg viewBox="0 0 24 24">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8" fill="none" stroke="currentColor" stroke-width="2"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2"></line>
+            <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2"></line>
+            <polyline points="10 9 9 9 8 9" stroke="currentColor" stroke-width="2"></polyline>
+          </svg>
+          <span class="social-tooltip">CV (binnenkort)</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CV MODAL -->
+  <div class="modal-backdrop" id="cvModal" aria-hidden="true" role="dialog" aria-labelledby="cvModalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="closeCvModal" aria-label="Sluit venster">&times;</button>
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#c25b6a" stroke-width="2">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+      </div>
+      <h3 class="modal-title" id="cvModalTitle">Curriculum Vitae</h3>
+      <p class="modal-subtitle">Floortje van der Bruggen</p>
+      <p class="modal-text">
+        Ik ben momenteel nog bezig met het bewerken van mijn CV. Wil je alvast meer weten of samenwerken? Neem gerust contact op!
+      </p>
+      <div class="modal-actions">
+        <a href="mailto:floortje.vanderbruggen@gmail.com" class="btn btn-coral">Mail Floortje</a>
+        <button class="btn btn-navy" id="closeCvBtn">Sluiten</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VASTE TERUG NAAR BOVEN KNOP -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Terug naar boven">
+    <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
